@@ -58,7 +58,29 @@ section h2 {
 section h3 {
     font-size: 40px;
 }
-
+section.carousel {
+    padding: 0 0 0 0;
+}
+.slide {
+    width: 100%;
+    height: 300px;
+}
+.slide1-bg {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJpgL3ouVn895-7af8pD0io186WxGHXMfEykxTcnuC4kz0HJi");
+    background-position: center;
+    background-size: cover;
+}
+.slide2-bg {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPgx2MsZXRF0vNZ2_UX9VPouShDW33Ug4LBLzoAi_bPuqZdH0j") ;
+    background-position: center;
+    background-size: cover;
+    
+}
+.slide3-bg{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE895epwnhmYtNXoJQQwyrr82h_f26hjCyZV8O5wXrHiGsrYvQ");
+    background-position: center;
+    background-size: cover;
+}
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -410,12 +432,12 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     background-size: cover;
 }
 .bg-athletics {
-    background: url("https://instagram.fmia1-2.fna.fbcdn.net/vp/2efba62dc7c2c6c84a04882916fe66a0/5CC2278A/t51.2885-15/e35/43985579_523061244875088_7055032025456140533_n.jpg?_nc_ht=instagram.fmia1-2.fna.fbcdn.net");
+    background: url("../img/athletics.jpg");
     background-position: center;
     background-size: cover;
 }
 .bg-aquatics {
-    background: url("https://instagram.fmia1-2.fna.fbcdn.net/vp/d2b7b1d5f3cd7d94fe076dfb6cc083c8/5CD2EAED/t51.2885-15/e35/42901324_495709937579731_6366564443614294182_n.jpg?_nc_ht=instagram.fmia1-2.fna.fbcdn.net");
+    background: url("../img/aquatics.jpg");
     background-position: center;
     background-size: cover;
 }
