@@ -61,24 +61,26 @@ section h3 {
 section.carousel {
     padding: 0 0 0 0;
 }
+.slide {
+    padding: 5% 5% 5% 5%;
+    background-color: #f2f2f2;
+}
 .slides {
-    margin-top: 5%;
-    width: 95%;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 .slide1-bg {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJpgL3ouVn895-7af8pD0io186WxGHXMfEykxTcnuC4kz0HJi");
+    background: url("../img/athletics-slide.jpeg");
     background-position: center;
     background-size: cover;
 }
 .slide2-bg {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPgx2MsZXRF0vNZ2_UX9VPouShDW33Ug4LBLzoAi_bPuqZdH0j") ;
+    background: url("../img/counsel-slide.jpeg") ;
     background-position: center;
     background-size: cover;
-    
 }
 .slide3-bg{
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE895epwnhmYtNXoJQQwyrr82h_f26hjCyZV8O5wXrHiGsrYvQ");
+    background: url("../img/swim-slide.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -209,7 +211,6 @@ header.masthead .device-container .screen img {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
     min-height: 575px;
     padding-top: 0;
     padding-bottom: 0;
