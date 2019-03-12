@@ -14,9 +14,7 @@
       }
     }
   });
-  // Initiate the wowjs animation library
-  new WOW().init();
-
+  
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
@@ -28,7 +26,8 @@
     target: '#mainNav',
     offset: 54
   });
-
+    // Initiate the wowjs animation library
+      new WOW().init();
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
