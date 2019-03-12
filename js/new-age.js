@@ -1,6 +1,6 @@
 (function($) {
   "use strict"; // Start of use strict
-
+  
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -14,6 +14,9 @@
       }
     }
   });
+  // Initiate the wowjs animation library
+  new WOW().init();
+
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
