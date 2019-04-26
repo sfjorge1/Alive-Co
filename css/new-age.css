@@ -27,7 +27,7 @@ a:hover, a:focus {
 hr {
   margin: 8px auto 0;
   border-width: 2px;
-  border-color: rgba(34, 34, 34, 0.5);
+  
 }
 
 
@@ -61,28 +61,43 @@ section h3 {
 section.carousel {
     padding: 0 0 0 0;
 }
-.slide {
-    padding: 5% 5% 5% 5%;
-    background-color: #dddddd;
-}
 .slides {
     width: 100%;
     height: 100%;
 }
-.slide1-bg {
-    background: url("../img/athletics-slide.jpeg");
+.bg-alive {
+    background: url("../img/bg.jpg");
     background-position: center;
     background-size: cover;
+}
+.slide-h2 {
+    margin-top: 14%;
+    background-color: rgba(255,255,255,0.6);
+    padding: 20px, 20px, 20px, 20px ;
+}
+.slide1-bg {
+    background: url("../img/Track Training.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
 }
 .slide2-bg {
-    background: url("../img/counsel-slide.jpeg") ;
+    background: url("../img/counseling.jpg") ;
     background-position: center;
     background-size: cover;
+    height: 80vh;
 }
-.slide3-bg{
-    background: url("../img/swim-slide.jpeg");
+.slide3-bg {
+    background: url("../img/Infant swimming.jpg");
     background-position: center;
     background-size: cover;
+    height: 80vh;
+}
+.slide4-bg {
+    background: url("../img/gear1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
 }
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
