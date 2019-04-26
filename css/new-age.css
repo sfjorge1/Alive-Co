@@ -80,28 +80,28 @@ section.carousel {
     background-position: center;
     background-size: cover;
     width: 100%;
-    padding-top: 30%;
+    padding-top: 35%;
 }
 .slide2-bg {
     background: url("../img/counseling.jpg") ;
     background-position: center;
     background-size: cover;
     width: 100%;
-    padding-top: 30%;
+    padding-top: 35%;
 }
 .slide3-bg {
     background: url("../img/Infant swimming.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
-    padding-top: 30%;
+    padding-top: 35%;
 }
 .slide4-bg {
     background: url("../img/gear1.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
-    padding-top: 30%;
+    padding-top: 35%;
 }
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
