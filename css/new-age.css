@@ -114,14 +114,14 @@ section.carousel {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: rgb(149,153,156);
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #fcbd20;
+  color: rgb(149,153,156);
 }
 
 #mainNav .navbar-toggler {
@@ -138,7 +138,7 @@ section.carousel {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: rgb(149,153,156) !important;
   background-color: transparent;
 }
 
@@ -148,12 +148,12 @@ section.carousel {
 
 #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
-  color: #222222;
+  color: rgb(149,153,156);
 }
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: rgb(149,153,156);
 }
 
 @media (min-width: 992px) {
@@ -162,10 +162,10 @@ section.carousel {
     background-color: white;
   }
   #mainNav .navbar-brand {
-    color: fade(white, 70%);
+    color: fade(black, 70%);
   }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-    color: white;
+    font-weight: 500;
   }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
@@ -173,26 +173,29 @@ section.carousel {
   }
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
-    color: white;
+    color: rgb(149,153,156);
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
     background-color: white;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #222222;
+    color: black;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #fdcc52;
+    color: rgb(149,153,156);
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
-    color: #222222;
+    color: rgb(149,153,156);
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: rgb(149,153,156);
   }
+}
+.fat:hover {
+    font-weight: 500 !important;
 }
 .logo {
     display: block;
@@ -392,6 +395,8 @@ section.cta .overlay {
 
 section.contact {
   text-align: center;
+  padding-bottom: 0;
+  padding-top: 3%;
 }
 
 section.contact h2 {
