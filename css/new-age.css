@@ -208,8 +208,8 @@ section.carousel {
     
 }
 .profile {
-    height: 320px;
-    width: auto;
+    height: auto;
+    width: 90%;
 }
 header.masthead {
   position: relative;
