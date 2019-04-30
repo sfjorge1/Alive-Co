@@ -208,7 +208,8 @@ section.carousel {
     
 }
 .profile {
-    height: 60vh;
+    height: 320px;
+    width: auto;
 }
 header.masthead {
   position: relative;
