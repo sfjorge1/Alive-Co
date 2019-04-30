@@ -9,7 +9,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 0px, 100px, 0px, 100px;
-  background-color: #d3d1d1;
+  background-color: #eaeaea;
 }
 
 body {
@@ -206,6 +206,9 @@ section.carousel {
     margin-left: auto;
     margin-right: auto;
     
+}
+.profile {
+    height: 60vh;
 }
 header.masthead {
   position: relative;
