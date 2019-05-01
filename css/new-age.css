@@ -531,3 +531,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .cont:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, 0.2);
 }
+.description {
+    margin-bottom: 2%;
+}
