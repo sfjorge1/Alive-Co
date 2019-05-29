@@ -29,7 +29,7 @@ a:hover, a:focus {
 hr {
   margin: 8px auto 0;
   border-width: 2px;
-  color: black;
+  border-color: white;
 }
 
 
@@ -53,6 +53,8 @@ p {
 
 section {
   padding: 100px 0;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 section h2 {
@@ -62,7 +64,7 @@ section h3 {
     font-size: 40px;
 }
 div h4 {
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 section.carousel {
     padding: 0 0 0 0;
@@ -97,7 +99,7 @@ section.carousel {
     padding-top: 35%;
 }
 .slide3-bg {
-    background: url("../img/Infant swimming.jpg");
+    background: url("../img/aquatic-slide.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -213,7 +215,7 @@ section.carousel {
 }
 .profile {
     height: auto;
-    width: 90%;
+    width: 100%;
 }
 header.masthead {
   position: relative;
@@ -275,18 +277,6 @@ div.download h2 {
   
 }
 
-div.download .badges .badge-link {
-  display: block;
-  margin-bottom: 25px;
-}
-
-div.download .badges .badge-link:last-child {
-  margin-bottom: 0;
-}
-
-div.download .badges .badge-link img {
-  height: 60px;
-}
 
 @media (min-width: 768px) {
   div.download .badges .badge-link {
@@ -300,54 +290,29 @@ div.download .badges .badge-link img {
     font-size: 70px;
   }
 }
-
-section.features .section-heading {
-  margin-bottom: 100px;
+section.promo {
+  position: relative;
+  background: url("../img/fitness.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3%;
+  background-color: #424242;
 }
 
-section.features .section-heading h2 {
-  margin-top: 0;
+section.promo h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 5vw;
 }
 
-section.features .section-heading p {
-  margin-bottom: 0;
+section.promo p {
+    color: white;
+    font-size: 1.5vw;
 }
 
-section.features .device-container,
-section.features .feature-item {
-  max-width: 325px;
-  margin: 0 auto;
-}
 
-section.features .device-container {
-  margin-bottom: 100px;
-}
 
-@media (min-width: 992px) {
-  section.features .device-container {
-    margin-bottom: 0;
-  }
-}
 
-section.features .feature-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center;
-}
-
-section.features .feature-item h3 {
-  font-size: 30px;
-}
-
-section.features .feature-item i {
-  font-size: 80px;
-  display: block;
-  margin-bottom: 15px;
-  background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: linear-gradient(to left, #7b4397, #dc2430);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 .heading {
     font-size: 8vw;
     color: white;
@@ -521,10 +486,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 5%;
+  background-color: rgba(255,255,255,0.5);
 }
 
 .btn-xl {
-  font-size: 11px;
+  font-size: 1.6vw;
   padding: 15px 45px;
 }
 
