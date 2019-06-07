@@ -289,7 +289,7 @@ div.download h2 {
 }
 section.promo {
   position: relative;
-  background: url("../img/camp.png");
+  background: url("../img/camp.jpg");
   background-position: center;
   background-size: cover;
   margin-bottom: 3%;
@@ -519,7 +519,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 /* Modal Content */
 .modal-content {
   position: relative;
-  background: url("../img/camp.png");
+  background: url("../img/camp.jpg");
   background-position: center;
   background-size: cover;
   margin: auto;
