@@ -29,7 +29,7 @@ a:hover, a:focus {
 hr {
   margin: 8px auto 0;
   border-width: 2px;
-  border-color: white;
+  border-color: black;
 }
 
 
@@ -51,11 +51,7 @@ p {
   margin-bottom: 20px;
 }
 
-section {
-  padding: 100px 0;
-  padding-left: 5%;
-  padding-right: 5%;
-}
+
 
 section h2 {
   font-size: 8vw;
@@ -68,6 +64,7 @@ div h4 {
 }
 section.carousel {
     padding: 0 0 0 0;
+    margin-top: 5%;
 }
 .slides {
     width: 100%;
@@ -292,7 +289,7 @@ div.download h2 {
 }
 section.promo {
   position: relative;
-  background: url("../img/fitness.jpg");
+  background: url("../img/camp.png");
   background-position: center;
   background-size: cover;
   margin-bottom: 3%;
@@ -307,7 +304,7 @@ section.promo h1 {
 
 section.promo p {
     color: white;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 
@@ -377,7 +374,6 @@ section.cta .overlay {
 section.contact {
   text-align: center;
   padding-bottom: 0;
-  padding-top: 3%;
 }
 
 section.contact h2 {
@@ -394,7 +390,7 @@ section.contact ul.list-social {
 }
 .info {
     background-color: rgba(255,255,255,0.6);
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 10px 10px 5px #999999;
     padding-top: 2%;
     padding-left: 1%;
     padding-right: 1%;
@@ -486,7 +482,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 5%;
+  margin-top: 5%;
   background-color: rgba(255,255,255,0.5);
+  font-size: 1.8vw;
 }
 
 .btn-xl {
@@ -521,7 +519,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 /* Modal Content */
 .modal-content {
   position: relative;
-  background: url("../img/fitness.jpg");
+  background: url("../img/camp.png");
   background-position: center;
   background-size: cover;
   margin: auto;
@@ -539,6 +537,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     margin-bottom: 2%;
     margin-right: 10%;
     margin-left: 10%;
+    font-size: 5vw;
 }
 
 .modal-content p {
