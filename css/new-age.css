@@ -60,7 +60,7 @@ section h3 {
     font-size: 40px;
 }
 div h4 {
-    font-size: 2.5vw;
+    font-size: 40px;
 }
 section.carousel {
     padding: 0 0 0 0;
@@ -469,7 +469,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 600px) {
     .bg-empowerment {
         background-attachment: scroll;
     }
