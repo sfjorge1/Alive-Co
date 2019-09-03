@@ -273,10 +273,7 @@ secton.team h2 {
 div.download {
   position: relative;
   padding: 100px 0;
-  margin-bottom: 3%;
-  margin-left: 3%;
-  margin-right: 3%;
-  box-shadow: 10px 10px 5px #aaaaaa;
+
 }
 
 div.download h2 {
