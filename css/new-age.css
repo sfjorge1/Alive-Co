@@ -447,6 +447,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     width: 100%;
 }
 
+
 .bg-empowerment {
     background: url("../img/counsel.jpeg");
     background-position: center;
@@ -467,6 +468,18 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+@media screen and (min-width: 992px) {
+    .bg-empowerment {
+        background-attachment: scroll;
+    }
+    .bg-athletics {
+        background-attachment: scroll;
+    }
+    .bg-aquatics {
+        background-attachment: scroll;
+    }
+
 }
 
 body:before {
