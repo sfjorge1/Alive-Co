@@ -60,21 +60,17 @@ section h3 {
     font-size: 40px;
 }
 div h4 {
-    font-size: 40px;
+    font-size: 30px;
 }
 section.carousel {
     padding: 0 0 0 0;
-    padding-top: 5%;
+    
 }
 .slides {
     width: 100%;
     height: 100%;
 }
-.bg-alive {
-    background: url("../img/fitness.jpg");
-    background-position: center;
-    background-size: cover;
-}
+
 .slide-h2 {
     font-size: 4vw;
     margin-top: -15%;
@@ -297,7 +293,7 @@ div.download h2 {
 }
 section.promo {
   position: relative;
-  background: url("../img/camp.jpg");
+  background: url("../img/conditioning.jpg");
   background-position: center;
   background-size: cover;
   padding-bottom: 5%;
@@ -313,6 +309,26 @@ section.promo h1 {
 section.promo p {
     color: white;
     font-size: 2vw;
+}
+
+div.residential {
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+div.residential h1 {
+    font-size: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.residential h2 {
+    font-size: 40px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+div.residential p {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 
@@ -444,7 +460,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     width: 100%;
 }
 
-
+.bg-alive {
+    background: url("../img/fitness.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .bg-empowerment {
     background: url("../img/counsel.jpeg");
     background-position: center;
@@ -476,6 +498,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     .bg-aquatics {
         background-attachment: scroll;
     }
+    .bg-alive {
+    background-attachment: scroll;
+}
 
 }
 
@@ -562,7 +587,7 @@ body:before {
 /* Modal Content */
 .modal-content {
   position: relative;
-  background: url("../img/camp.jpg");
+  background: url("../img/conditioning.jpg");
   background-position: center;
   background-size: cover;
   margin: auto;
