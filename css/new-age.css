@@ -488,8 +488,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-@media only (min-device-width: 414px) 
-  and (max-device-width: 736px) {
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2){
     .bg-empowerment {
         background-attachment: scroll;
     }
